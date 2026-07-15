@@ -1,27 +1,3 @@
-# JAVA_Practicals
-# ☕ JAVA Practicals
-
-This repository contains my weekly Java practical programs completed as part of my Java Programming Laboratory coursework.
-
-Each week's practicals are organized into separate folders for easy navigation and future reference.
-
----
-
-## 📁 Repository Structure
-
-```
-JAVA_Practicals/
-│
-├── WEEK-1/
-│   ├── RPSLS.java
-│   ├── Tollbooth.java
-│   └── VendingMachine.java
-│
-├── .gitignore
-└── README.md
-```
-
----
 
 # 📚 WEEK-1 Practicals
 
@@ -174,4 +150,3 @@ B.Tech Artificial Intelligence & Machine Learning (AIML)
 
 ---
 
-⭐ This repository will be updated every week with new Java practicals and mini-projects.
