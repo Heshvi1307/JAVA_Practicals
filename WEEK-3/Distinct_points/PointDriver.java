@@ -1,5 +1,5 @@
 import java.util.*;
-public class Driver {
+public class PointDriver {
 
     public static void main(String[] args) {
 
