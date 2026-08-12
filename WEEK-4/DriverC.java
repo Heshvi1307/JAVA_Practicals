@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class DriverC {
-
     public static void main(String[] args) {
 
         String[] logs = {
