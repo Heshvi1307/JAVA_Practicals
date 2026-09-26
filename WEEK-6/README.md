@@ -1,91 +1,83 @@
-# ⚡ Java Practicals — Week 6: Interfaces & Lambda Magic
+# Week 6 – Functional Interfaces and Lambda Expressions
 
-![Java Version](https://shields.io)
-![Topics Covered](https://shields.io)
+## Overview
 
-Welcome to the **Week 6** practical directory! This module explores advanced Object-Oriented Programming (OOP) architectures in Java. It breaks away from rigid class hierarchies to implement flexible, decoupled code using **Functional Interfaces**, **Anonymous Class Blocks**, **Marker Tags**, and **Dynamic Lambda Closures**.
+This practical covers functional programming architectures in Java, including the design of custom functional interfaces, anonymous inner classes, dynamic behavior mapping using lambda expressions, runtime structural filtering with marker interfaces, and package-isolated dynamic calculation systems.
 
----
+## Practicals Covered
 
-## 📂 Project Architecture
+### 1. Guarded Remote Control
 
-```text
-WEEK-6/
-├── 🎛️ RemoteControl.java       # System 1: Polymorphic device matrix with runtime locks
-├── 📣 Notification.java        # System 2: Priority message dispatcher with marker tagging
-└── 🛒 DiscountEngine/          # System 3: Package-isolated dynamic mathematical engine
-    └── src/
-        └── Discount/
-            ├── DiscountRule.java
-            ├── DiscountRules.java
-            └── DiscountEngine.java
+* Created a smart hardware matrix simulation incorporating `Fan` and `Light` device profiles.
+* Implemented a `Switchable` interface providing standard operational signatures and a fallback `default` toggle routine.
+* Designed an automated verification framework utilizing a custom `@FunctionalInterface` to evaluate time-based activation rules.
+* Provided alternative condition verification implementations using both an inline anonymous class block and a streamlined lambda expression.
+* Processed hardware arrays polymorphically using loop structures to toggle states across distinct component objects.
+
+### 2. Decoupled Broadcast Network
+
+* Created a multi-channel message dispatcher utility handling `Email` and `SMS` pipelines.
+* Implemented a core functional interface contract using the `@FunctionalInterface` compiler safeguard.
+* Created a custom marker interface:
+  * `Urgent`
+* Organized discrete communication channels using functional references stored within unified interface arrays.
+* Checked metadata markers at runtime using the `instanceof` conditional type operator.
+* Processed urgent channels with a targeted dual-transmission mechanism without altering global pipeline routines.
+
+### 3. Dynamic Package-Isolated Discount Engine
+
+* Created a console-driven calculation engine to apply variable commercial deductions to transaction lists.
+* Encapsulated domain components into localized packages using explicit namespace declarations.
+* Created specialized rules as standalone functional objects:
+  * `DiscountRule`
+* Stored array data sets safely while routing arithmetic functions through runtime switch statements.
+* Evaluated conditional bounds inside closures to ensure final numbers never fall below zero-dollar thresholds.
+* Allowed users to input numbers dynamically, run variable calculation passes, and loop the engine menu until explicit exit signals are received.
+
+## Learning Outcomes
+
+* Understand and design structural functional interfaces using the `@FunctionalInterface` annotation.
+* Streamline boilerplate code using single-line lambda closures to inject behavior dynamically.
+* Leverage polymorphic interface arrays to manage and orchestrate distinct concrete implementations.
+* Apply marker interface patterns to dynamically evaluate object states at runtime using `instanceof`.
+* Organize modular enterprise applications inside dedicated packages and manage user input matrices safely.
+
+## Technologies Used
+
+* Java
+* `Scanner`
+* `ArrayList` / `List`
+* Functional Interfaces
+* Lambda Expressions
+* Anonymous Inner Classes
+* Marker Interfaces
+* Interface Default Methods
+* Java Packages
+* User-defined Methods
+
+## How to Run
+
+Compile the required Java file:
+
+```bash
+javac FileName.java
 ```
 
----
+Run the program:
 
-## 🛠️ Deep-Dive into the Systems
-
-### 🎛️ 1. Intelligent Remote Control Matrix (`RemoteControl.java`)
-A device control simulation handling polymorphic execution through abstract definitions. It features an automated authorization checkpoint system to restrict runtime operations based on chronological variables.
-
-* **Polymorphic Arrays:** Stores distinct hardware behaviors (`Fan`, `Light`) inside a single `Switchable[]` interface array.
-* **Fallback Defaults:** Leverages Java's `default` interface keyword to automate standard `toggle()` loops without breaking downstream implementations.
-* **The Evolution of Style:** Side-by-side comparison handling the exact same verification algorithm—once via an inline **Anonymous Inner Class**, and once using a modern, lightweight **Lambda Expression**.
-
----
-
-### 📣 2. Decoupled Broadcast Network (`Notification.java`)
-A multi-layered communications utility engineered to dispatch system payloads across varying pipelines (`Email` and `SMS`) using ultra-clean, inline behavioral abstractions.
-
-* **Functional Blueprints:** Enforces strict code structures using the `@FunctionalInterface` contract compiler safeguard.
-* **Marker Interface Pattern:** Integrates an empty interface footprint (`Urgent`) to dynamically tag metadata states without altering structural properties.
-* **Metadata Interrogation:** Evaluates component references at runtime using `instanceof` blocks, instantly triggering aggressive double-broadcast loops for time-sensitive emergency lines.
-
----
-
-### 🛒 3. Dynamic Package-Isolated Discount Engine (`DiscountEngine/`)
-An enterprise-style console tool built to evaluate raw financial arrays against user-selected algebraic calculation rules selected dynamically at execution time.
-
-* **Domain Isolation:** Fully encapsulated under the `package Discount;` namespace to avoid structural pollution.
-* **Behavioral Injection:** Instead of hardcoding math functions, mathematical rules are generated as functional objects (`DiscountRule`) and cleanly evaluated inside real-time calculations.
-* **Data Sanitization:** Implements protective boundaries within closures to guarantee output data never dips below floor metrics (e.g., zero-dollar thresholds).
-
----
-
-## 🎯 Mastered Capabilities
-
-* **Functional Automation:** Stripping away bulky boilerplate code in favor of expressive, single-line **Lambda Expressions**.
-* **Decoupled Architecture:** Using polymorphic interface references to call specialized class algorithms dynamically.
-* **Metadata Tagging:** Applying **Marker Interfaces** to filter and alter execution routing at runtime.
-* **Modular Codebases:** Bundling discrete application nodes inside explicitly declared **Java Packages** for distribution.
-
----
-
-## 🚀 Execution Guide
-
-Ensure the Java Development Kit (JDK 8+) is installed and globally mapped in your environment variables.
-
-### 🟢 Running Standalone Applications (Problems 1 & 2)
-Compile and launch the standalone modules directly from the parent workspace directory:
 ```bash
-# System 1: Remote Control Matrix
+java ClassName
+```
+
+For example:
+
+```bash
+# To run Problem 1
 javac RemoteControl.java
 java RemoteControl
 
-# System 2: Notification Network
-javac Notification.java
-java Notification
-```
-
-### 🔵 Running the Packaged Discount Engine (Problem 3)
-Navigate into the root source tree folder and point the compiler directly to the encapsulated package structure:
-```bash
-# Shift into the source root
+# To run Problem 3 (Navigate to source root first)
 cd DiscountEngine/src
-
-# Compile the package domain entirely
 javac Discount/*.java
-
-# Run using the fully-qualified package naming convention
 java Discount.DiscountEngine
-```
+
