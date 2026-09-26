@@ -6,7 +6,7 @@
 
 ### Objective
 
-Create a Point class and count the number of **distinct points** from a set of points containing repeated coordinates.
+Create a Point class and count the number of **distinct points** from a set of points containing repeated coordinates...
 
 ### Concepts Covered
 
