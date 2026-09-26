@@ -1,4 +1,4 @@
-# Week 6 – Exception Handling and Resource Management
+# Week 8 – Exception Handling and Resource Management
 
 ## Overview
 
