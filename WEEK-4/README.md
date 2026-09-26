@@ -5,7 +5,7 @@
 **Files:** `PasswordChecker.java` + `DriverP.java`
 
 ### Objective
-Implement a password strength checker that evaluates passwords based on four predefined rules.
+Implement a password strength checker that evaluates passwords based on four predefined rules...
 
 ### Concepts Covered
 - Classes and Objects
