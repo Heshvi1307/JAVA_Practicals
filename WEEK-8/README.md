@@ -2,7 +2,7 @@
 
 ## Overview
 
-This practical covers advanced exception handling concepts in Java, including custom checked exceptions, user input validation, multi-catch blocks, inventory management, and automatic resource management using try-with-resources.
+This practical covers advanced exception handling concepts in Java, including custom checked exceptions, user input validation, multi-catch blocks, inventory management, and automatic resource management using try-with-resources...
 
 ## Practicals Covered
 
