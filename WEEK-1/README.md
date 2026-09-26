@@ -6,7 +6,7 @@
 **File:** `VendingMachine.java`
 
 ### Objective
-Simulate a vending machine that accepts different coin denominations until the required amount is collected.
+Simulate a vending machine that accepts different coin denominations until the required amount is collected...
 
 ### Concepts Covered
 - Enums
