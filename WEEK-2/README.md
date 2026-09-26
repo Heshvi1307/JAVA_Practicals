@@ -5,7 +5,7 @@
 **File:** `Thermostat.java`
 
 ### Objective
-Implement a smart thermostat that maintains room temperature within a predefined range.
+Implement a smart thermostat that maintains room temperature within a predefined range...
 
 ### Concepts Covered
 - Classes and Objects
