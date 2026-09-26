@@ -22,7 +22,7 @@ This practical covers functional programming architectures in Java, including th
   * `Urgent`
 * Organized discrete communication channels using functional references stored within unified interface arrays.
 * Checked metadata markers at runtime using the `instanceof` conditional type operator.
-* Processed urgent channels with a targeted dual-transmission mechanism without altering global pipeline routines.
+* Processed urgent channels with a targeted dual-transmission mechanism without altering global pipeline routines...
 
 ### 3. Dynamic Package-Isolated Discount Engine
 
