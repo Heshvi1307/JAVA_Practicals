@@ -33,7 +33,7 @@ Create a Point class and count the number of **distinct points** from a set of p
 
 ### Objective
 
-Create a Card class and check for duplicate cards based on their **rank and suit**.
+Create a Card class and check for duplicate cards based on their **rank and suit**...
 
 ### Concepts Covered
 
