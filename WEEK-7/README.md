@@ -8,13 +8,13 @@ This repository contains three Java practicals based on custom annotations and J
 
 In this practical, custom annotations `@NotBlank` and `@MaxLength(int)` are created and applied to fields of a `SignupForm`.
 
-Reflection is used to read the annotations and validate the entered values.
+Reflection is used to read the annotations and validate the entered values...
 
 The program checks:
 
 * Whether a field is blank.
 * Whether a field exceeds the maximum allowed length.
-* Displays all validation errors.
+* Displays all validation errors....
 
 Example:
 
